@@ -1,0 +1,6 @@
+created:
+    - database/migrations/2020_08_01_111926_create_contacts_table.php
+    - app/Contact.php
+    - database/factories/ContactFactory.php
+models:
+    Contact: { first_name: string, last_name: string, email: string, phone: string, zip: string, type: 'string default:''client''' }
